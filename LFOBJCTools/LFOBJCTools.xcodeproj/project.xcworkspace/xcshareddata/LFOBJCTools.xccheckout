@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F9C7EE8B-61ED-4FF2-8B70-D803A89D823F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LFOBJCTools</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>093F9822-ABA8-42D4-94B1-2EA40E720944</key>
+		<string>https://github.com/caivenlf/LFOBJCTools.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LFOBJCTools/LFOBJCTools.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>093F9822-ABA8-42D4-94B1-2EA40E720944</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/caivenlf/LFOBJCTools.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>093F9822-ABA8-42D4-94B1-2EA40E720944</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>093F9822-ABA8-42D4-94B1-2EA40E720944</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LFOBJCTools</string>
+		</dict>
+	</array>
+</dict>
+</plist>

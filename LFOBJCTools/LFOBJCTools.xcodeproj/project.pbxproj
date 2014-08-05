@@ -53,6 +53,7 @@
 		311D15A119910CA60077FAFC /* LFOBJCToolsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LFOBJCToolsTests-Info.plist"; sourceTree = "<group>"; };
 		311D15A319910CA60077FAFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		311D15A519910CA60077FAFC /* LFOBJCToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFOBJCToolsTests.m; sourceTree = "<group>"; };
+		311D15B41991104C0077FAFC /* Debug_Release.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Debug_Release.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +113,7 @@
 		311D158019910CA60077FAFC /* LFOBJCTools */ = {
 			isa = PBXGroup;
 			children = (
+				311D15B3199110330077FAFC /* BaseMacros */,
 				311D158919910CA60077FAFC /* AppDelegate.h */,
 				311D158A19910CA60077FAFC /* AppDelegate.m */,
 				311D158C19910CA60077FAFC /* Main.storyboard */,
@@ -150,6 +152,14 @@
 				311D15A219910CA60077FAFC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		311D15B3199110330077FAFC /* BaseMacros */ = {
+			isa = PBXGroup;
+			children = (
+				311D15B41991104C0077FAFC /* Debug_Release.h */,
+			);
+			path = BaseMacros;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -456,6 +466,7 @@
 				311D15AB19910CA60077FAFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		311D15AC19910CA60077FAFC /* Build configuration list for PBXNativeTarget "LFOBJCToolsTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +475,7 @@
 				311D15AE19910CA60077FAFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

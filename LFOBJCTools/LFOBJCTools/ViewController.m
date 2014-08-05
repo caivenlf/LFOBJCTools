@@ -7,6 +7,11 @@
 //
 
 #import "ViewController.h"
+#define debug(...)  NSLog(__VA_ARGS__)
+typedef enum{
+    
+    First,Second,Third,Forth
+} enumTest;
 
 @interface ViewController ()
 
@@ -17,6 +22,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
