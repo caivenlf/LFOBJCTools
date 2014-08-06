@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		311614301991DB18004129E8 /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3116142F1991DB18004129E8 /* NSDataAdditions.m */; };
+		311614341991E723004129E8 /* NSDateAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 311614331991E723004129E8 /* NSDateAdditions.m */; };
+		31161437199218EB004129E8 /* NSDictionaryAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 31161436199218EB004129E8 /* NSDictionaryAdditions.m */; };
+		3116143A19926030004129E8 /* NSObject+json.m in Sources */ = {isa = PBXBuildFile; fileRef = 3116143919926030004129E8 /* NSObject+json.m */; };
+		3116143D199262B6004129E8 /* NSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3116143C199262B6004129E8 /* NSStringAdditions.m */; };
+		31161440199262EC004129E8 /* pinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = 3116143E199262EC004129E8 /* pinyin.c */; };
+		3116144319926484004129E8 /* UIButton+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3116144219926484004129E8 /* UIButton+Additions.m */; };
+		3116144619926575004129E8 /* UIColorAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3116144519926575004129E8 /* UIColorAdditions.m */; };
+		311614491992665C004129E8 /* UIDevice-Hardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 311614481992665C004129E8 /* UIDevice-Hardware.m */; };
+		3116144C199266BE004129E8 /* UIFontAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3116144B199266BE004129E8 /* UIFontAdditions.m */; };
+		3116144F199268B8004129E8 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 3116144E199268B8004129E8 /* UIImage+Alpha.m */; };
+		3116145E19926AAB004129E8 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 3116145119926AAB004129E8 /* UIImage+Resize.m */; };
+		3116145F19926AAB004129E8 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 3116145319926AAB004129E8 /* UIImage+RoundedCorner.m */; };
+		3116146019926AAB004129E8 /* UIImage+store.m in Sources */ = {isa = PBXBuildFile; fileRef = 3116145519926AAB004129E8 /* UIImage+store.m */; };
+		3116146119926AAB004129E8 /* UITextField+FormValid.m in Sources */ = {isa = PBXBuildFile; fileRef = 3116145719926AAB004129E8 /* UITextField+FormValid.m */; };
+		3116146219926AAB004129E8 /* UITextViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3116145919926AAB004129E8 /* UITextViewAdditions.m */; };
+		3116146319926AAB004129E8 /* UIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3116145B19926AAB004129E8 /* UIView+Hierarchy.m */; };
+		3116146419926AAB004129E8 /* UIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3116145D19926AAB004129E8 /* UIViewAdditions.m */; };
 		311D157B19910CA60077FAFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 311D157A19910CA60077FAFC /* Foundation.framework */; };
 		311D157D19910CA60077FAFC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 311D157C19910CA60077FAFC /* CoreGraphics.framework */; };
 		311D157F19910CA60077FAFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 311D157E19910CA60077FAFC /* UIKit.framework */; };
@@ -34,6 +52,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3116142E1991DB18004129E8 /* NSDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataAdditions.h; sourceTree = "<group>"; };
+		3116142F1991DB18004129E8 /* NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAdditions.m; sourceTree = "<group>"; };
+		311614311991DC4E004129E8 /* LFObjcTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFObjcTools.h; sourceTree = "<group>"; };
+		311614321991E723004129E8 /* NSDateAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDateAdditions.h; sourceTree = "<group>"; };
+		311614331991E723004129E8 /* NSDateAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateAdditions.m; sourceTree = "<group>"; };
+		31161435199218EB004129E8 /* NSDictionaryAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionaryAdditions.h; sourceTree = "<group>"; };
+		31161436199218EB004129E8 /* NSDictionaryAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryAdditions.m; sourceTree = "<group>"; };
+		3116143819926030004129E8 /* NSObject+json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+json.h"; sourceTree = "<group>"; };
+		3116143919926030004129E8 /* NSObject+json.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+json.m"; sourceTree = "<group>"; };
+		3116143B199262B6004129E8 /* NSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringAdditions.h; sourceTree = "<group>"; };
+		3116143C199262B6004129E8 /* NSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringAdditions.m; sourceTree = "<group>"; };
+		3116143E199262EC004129E8 /* pinyin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pinyin.c; sourceTree = "<group>"; };
+		3116143F199262EC004129E8 /* pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinyin.h; sourceTree = "<group>"; };
+		3116144119926484004129E8 /* UIButton+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Additions.h"; sourceTree = "<group>"; };
+		3116144219926484004129E8 /* UIButton+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Additions.m"; sourceTree = "<group>"; };
+		3116144419926575004129E8 /* UIColorAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColorAdditions.h; sourceTree = "<group>"; };
+		3116144519926575004129E8 /* UIColorAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColorAdditions.m; sourceTree = "<group>"; };
+		311614471992665C004129E8 /* UIDevice-Hardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice-Hardware.h"; sourceTree = "<group>"; };
+		311614481992665C004129E8 /* UIDevice-Hardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice-Hardware.m"; sourceTree = "<group>"; };
+		3116144A199266BE004129E8 /* UIFontAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFontAdditions.h; sourceTree = "<group>"; };
+		3116144B199266BE004129E8 /* UIFontAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFontAdditions.m; sourceTree = "<group>"; };
+		3116144D199268B8004129E8 /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		3116144E199268B8004129E8 /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		3116145019926AAB004129E8 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		3116145119926AAB004129E8 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		3116145219926AAB004129E8 /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		3116145319926AAB004129E8 /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		3116145419926AAB004129E8 /* UIImage+store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+store.h"; sourceTree = "<group>"; };
+		3116145519926AAB004129E8 /* UIImage+store.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+store.m"; sourceTree = "<group>"; };
+		3116145619926AAB004129E8 /* UITextField+FormValid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+FormValid.h"; sourceTree = "<group>"; };
+		3116145719926AAB004129E8 /* UITextField+FormValid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+FormValid.m"; sourceTree = "<group>"; };
+		3116145819926AAB004129E8 /* UITextViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITextViewAdditions.h; sourceTree = "<group>"; };
+		3116145919926AAB004129E8 /* UITextViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITextViewAdditions.m; sourceTree = "<group>"; };
+		3116145A19926AAB004129E8 /* UIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Hierarchy.h"; sourceTree = "<group>"; };
+		3116145B19926AAB004129E8 /* UIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Hierarchy.m"; sourceTree = "<group>"; };
+		3116145C19926AAB004129E8 /* UIViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewAdditions.h; sourceTree = "<group>"; };
+		3116145D19926AAB004129E8 /* UIViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewAdditions.m; sourceTree = "<group>"; };
 		311D157719910CA60077FAFC /* LFOBJCTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFOBJCTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		311D157A19910CA60077FAFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		311D157C19910CA60077FAFC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -157,6 +212,43 @@
 		311D15B3199110330077FAFC /* BaseMacros */ = {
 			isa = PBXGroup;
 			children = (
+				311614311991DC4E004129E8 /* LFObjcTools.h */,
+				3116142E1991DB18004129E8 /* NSDataAdditions.h */,
+				3116142F1991DB18004129E8 /* NSDataAdditions.m */,
+				31161435199218EB004129E8 /* NSDictionaryAdditions.h */,
+				31161436199218EB004129E8 /* NSDictionaryAdditions.m */,
+				311614321991E723004129E8 /* NSDateAdditions.h */,
+				311614331991E723004129E8 /* NSDateAdditions.m */,
+				3116143819926030004129E8 /* NSObject+json.h */,
+				3116143919926030004129E8 /* NSObject+json.m */,
+				3116143B199262B6004129E8 /* NSStringAdditions.h */,
+				3116143C199262B6004129E8 /* NSStringAdditions.m */,
+				3116144119926484004129E8 /* UIButton+Additions.h */,
+				3116144219926484004129E8 /* UIButton+Additions.m */,
+				3116143E199262EC004129E8 /* pinyin.c */,
+				3116143F199262EC004129E8 /* pinyin.h */,
+				3116144A199266BE004129E8 /* UIFontAdditions.h */,
+				3116144B199266BE004129E8 /* UIFontAdditions.m */,
+				3116144419926575004129E8 /* UIColorAdditions.h */,
+				3116144519926575004129E8 /* UIColorAdditions.m */,
+				3116144D199268B8004129E8 /* UIImage+Alpha.h */,
+				3116144E199268B8004129E8 /* UIImage+Alpha.m */,
+				311614471992665C004129E8 /* UIDevice-Hardware.h */,
+				311614481992665C004129E8 /* UIDevice-Hardware.m */,
+				3116145019926AAB004129E8 /* UIImage+Resize.h */,
+				3116145119926AAB004129E8 /* UIImage+Resize.m */,
+				3116145219926AAB004129E8 /* UIImage+RoundedCorner.h */,
+				3116145319926AAB004129E8 /* UIImage+RoundedCorner.m */,
+				3116145419926AAB004129E8 /* UIImage+store.h */,
+				3116145519926AAB004129E8 /* UIImage+store.m */,
+				3116145619926AAB004129E8 /* UITextField+FormValid.h */,
+				3116145719926AAB004129E8 /* UITextField+FormValid.m */,
+				3116145819926AAB004129E8 /* UITextViewAdditions.h */,
+				3116145919926AAB004129E8 /* UITextViewAdditions.m */,
+				3116145A19926AAB004129E8 /* UIView+Hierarchy.h */,
+				3116145B19926AAB004129E8 /* UIView+Hierarchy.m */,
+				3116145C19926AAB004129E8 /* UIViewAdditions.h */,
+				3116145D19926AAB004129E8 /* UIViewAdditions.m */,
 				311D15B41991104C0077FAFC /* Debug_Release.h */,
 			);
 			path = BaseMacros;
@@ -259,9 +351,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3116143A19926030004129E8 /* NSObject+json.m in Sources */,
 				311D159119910CA60077FAFC /* ViewController.m in Sources */,
+				3116146419926AAB004129E8 /* UIViewAdditions.m in Sources */,
 				311D158B19910CA60077FAFC /* AppDelegate.m in Sources */,
+				311614301991DB18004129E8 /* NSDataAdditions.m in Sources */,
+				3116146319926AAB004129E8 /* UIView+Hierarchy.m in Sources */,
+				3116144F199268B8004129E8 /* UIImage+Alpha.m in Sources */,
+				3116146219926AAB004129E8 /* UITextViewAdditions.m in Sources */,
 				311D158719910CA60077FAFC /* main.m in Sources */,
+				3116143D199262B6004129E8 /* NSStringAdditions.m in Sources */,
+				3116144C199266BE004129E8 /* UIFontAdditions.m in Sources */,
+				3116145F19926AAB004129E8 /* UIImage+RoundedCorner.m in Sources */,
+				31161440199262EC004129E8 /* pinyin.c in Sources */,
+				311614491992665C004129E8 /* UIDevice-Hardware.m in Sources */,
+				3116144319926484004129E8 /* UIButton+Additions.m in Sources */,
+				3116146119926AAB004129E8 /* UITextField+FormValid.m in Sources */,
+				3116146019926AAB004129E8 /* UIImage+store.m in Sources */,
+				3116144619926575004129E8 /* UIColorAdditions.m in Sources */,
+				31161437199218EB004129E8 /* NSDictionaryAdditions.m in Sources */,
+				311614341991E723004129E8 /* NSDateAdditions.m in Sources */,
+				3116145E19926AAB004129E8 /* UIImage+Resize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

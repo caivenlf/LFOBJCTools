@@ -1,14 +1,24 @@
 //
-//  Debug_Release.h
+//  LFObjcTools.h
 //  LFOBJCTools
 //
-//  Created by Vincent on 14-8-5.
+//  Created by Vincent on 14-8-6.
 //  Copyright (c) 2014年 Vicent. All rights reserved.
-//
+
+
+
+/***********************************************************
+ *
+ *
+ *          C MACRO
+ *
+ *
+ ***********************************************************/
+
+
 
 #ifndef LFOBJCTools_Debug_Release_h
 #define LFOBJCTools_Debug_Release_h
-
 #endif
 
 
