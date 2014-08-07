@@ -26,7 +26,6 @@
     #import "UIImage+Resize.h"
     #import "UIImage+RoundedCorner.h"
     #import "UIImage+store.h"
-    #import "UITextField+FormValid.h"
     #import "UITextViewAdditions.h"
     #import "UIView+Hierarchy.h"
     #import "UIViewAdditions.h"

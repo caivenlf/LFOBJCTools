@@ -1,10 +1,9 @@
 //
-//  UIButton+Additions.h
-//  NewZhiyou
+//  LFObjcTools.h
+//  LFOBJCTools
 //
-//  Created by clyde yang on 11-11-5.
-//  Copyright (c) 2011年 深圳市指优信息技术发展有限公司. All rights reserved.
-//
+//  Created by Vincent on 14-8-6.
+//  Copyright (c) 2014年 Vicent. All rights reserved.
 
 #import <UIKit/UIKit.h>
 

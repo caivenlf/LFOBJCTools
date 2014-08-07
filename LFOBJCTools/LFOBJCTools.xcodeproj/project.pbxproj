@@ -21,7 +21,6 @@
 		3116145E19926AAB004129E8 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 3116145119926AAB004129E8 /* UIImage+Resize.m */; };
 		3116145F19926AAB004129E8 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 3116145319926AAB004129E8 /* UIImage+RoundedCorner.m */; };
 		3116146019926AAB004129E8 /* UIImage+store.m in Sources */ = {isa = PBXBuildFile; fileRef = 3116145519926AAB004129E8 /* UIImage+store.m */; };
-		3116146119926AAB004129E8 /* UITextField+FormValid.m in Sources */ = {isa = PBXBuildFile; fileRef = 3116145719926AAB004129E8 /* UITextField+FormValid.m */; };
 		3116146219926AAB004129E8 /* UITextViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3116145919926AAB004129E8 /* UITextViewAdditions.m */; };
 		3116146319926AAB004129E8 /* UIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3116145B19926AAB004129E8 /* UIView+Hierarchy.m */; };
 		3116146419926AAB004129E8 /* UIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3116145D19926AAB004129E8 /* UIViewAdditions.m */; };
@@ -39,6 +38,7 @@
 		311D159C19910CA60077FAFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 311D157E19910CA60077FAFC /* UIKit.framework */; };
 		311D15A419910CA60077FAFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 311D15A219910CA60077FAFC /* InfoPlist.strings */; };
 		311D15A619910CA60077FAFC /* LFOBJCToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 311D15A519910CA60077FAFC /* LFOBJCToolsTests.m */; };
+		3186AD2A19938339005074FF /* AddtionsFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3186AD2919938339005074FF /* AddtionsFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,8 +81,6 @@
 		3116145319926AAB004129E8 /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
 		3116145419926AAB004129E8 /* UIImage+store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+store.h"; sourceTree = "<group>"; };
 		3116145519926AAB004129E8 /* UIImage+store.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+store.m"; sourceTree = "<group>"; };
-		3116145619926AAB004129E8 /* UITextField+FormValid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+FormValid.h"; sourceTree = "<group>"; };
-		3116145719926AAB004129E8 /* UITextField+FormValid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+FormValid.m"; sourceTree = "<group>"; };
 		3116145819926AAB004129E8 /* UITextViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITextViewAdditions.h; sourceTree = "<group>"; };
 		3116145919926AAB004129E8 /* UITextViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITextViewAdditions.m; sourceTree = "<group>"; };
 		3116145A19926AAB004129E8 /* UIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Hierarchy.h"; sourceTree = "<group>"; };
@@ -109,6 +107,8 @@
 		311D15A319910CA60077FAFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		311D15A519910CA60077FAFC /* LFOBJCToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFOBJCToolsTests.m; sourceTree = "<group>"; };
 		311D15B41991104C0077FAFC /* Debug_Release.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Debug_Release.h; sourceTree = "<group>"; };
+		3186AA5319934E53005074FF /* AdditionsDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdditionsDefine.h; sourceTree = "<group>"; };
+		3186AD2919938339005074FF /* AddtionsFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AddtionsFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +119,7 @@
 				311D157D19910CA60077FAFC /* CoreGraphics.framework in Frameworks */,
 				311D157F19910CA60077FAFC /* UIKit.framework in Frameworks */,
 				311D157B19910CA60077FAFC /* Foundation.framework in Frameworks */,
+				3186AD2A19938339005074FF /* AddtionsFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +158,7 @@
 		311D157919910CA60077FAFC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3186AD2919938339005074FF /* AddtionsFramework.framework */,
 				311D157A19910CA60077FAFC /* Foundation.framework */,
 				311D157C19910CA60077FAFC /* CoreGraphics.framework */,
 				311D157E19910CA60077FAFC /* UIKit.framework */,
@@ -213,6 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				311614311991DC4E004129E8 /* LFObjcTools.h */,
+				3186AA5319934E53005074FF /* AdditionsDefine.h */,
 				3116142E1991DB18004129E8 /* NSDataAdditions.h */,
 				3116142F1991DB18004129E8 /* NSDataAdditions.m */,
 				31161435199218EB004129E8 /* NSDictionaryAdditions.h */,
@@ -241,8 +244,6 @@
 				3116145319926AAB004129E8 /* UIImage+RoundedCorner.m */,
 				3116145419926AAB004129E8 /* UIImage+store.h */,
 				3116145519926AAB004129E8 /* UIImage+store.m */,
-				3116145619926AAB004129E8 /* UITextField+FormValid.h */,
-				3116145719926AAB004129E8 /* UITextField+FormValid.m */,
 				3116145819926AAB004129E8 /* UITextViewAdditions.h */,
 				3116145919926AAB004129E8 /* UITextViewAdditions.m */,
 				3116145A19926AAB004129E8 /* UIView+Hierarchy.h */,
@@ -366,7 +367,6 @@
 				31161440199262EC004129E8 /* pinyin.c in Sources */,
 				311614491992665C004129E8 /* UIDevice-Hardware.m in Sources */,
 				3116144319926484004129E8 /* UIButton+Additions.m in Sources */,
-				3116146119926AAB004129E8 /* UITextField+FormValid.m in Sources */,
 				3116146019926AAB004129E8 /* UIImage+store.m in Sources */,
 				3116144619926575004129E8 /* UIColorAdditions.m in Sources */,
 				31161437199218EB004129E8 /* NSDictionaryAdditions.m in Sources */,
@@ -496,6 +496,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LFOBJCTools/LFOBJCTools-Prefix.pch";
 				INFOPLIST_FILE = "LFOBJCTools/LFOBJCTools-Info.plist";
@@ -509,6 +513,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LFOBJCTools/LFOBJCTools-Prefix.pch";
 				INFOPLIST_FILE = "LFOBJCTools/LFOBJCTools-Info.plist";

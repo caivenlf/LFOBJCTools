@@ -28,4 +28,8 @@
  */
 - (BOOL)isValidPhone;
 
+/** 验证是否符合某个正则表达式
+ */
+- (BOOL)isMatchedRegularStr:(NSString *)regularStr;
+
 @end

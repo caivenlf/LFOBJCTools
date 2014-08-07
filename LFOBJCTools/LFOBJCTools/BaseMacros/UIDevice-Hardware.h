@@ -1,8 +1,9 @@
-/*
- Erica Sadun, http://ericasadun.com
- iPhone Developer's Cookbook, 5.0 Edition
- BSD License, Use at your own risk
- */
+//
+//  LFObjcTools.h
+//  LFOBJCTools
+//
+//  Created by Vincent on 14-8-6.
+//  Copyright (c) 2014年 Vicent. All rights reserved.
 
 #import <UIKit/UIKit.h>
 

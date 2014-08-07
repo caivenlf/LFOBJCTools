@@ -1,10 +1,9 @@
 //
-//  NSObject+json.m
-//  NewZhiyou
+//  LFObjcTools.h
+//  LFOBJCTools
 //
-//  Created by user on 11-8-17.
-//  Copyright 2011年 __MyCompanyName__. All rights reserved.
-//
+//  Created by Vincent on 14-8-6.
+//  Copyright (c) 2014年 Vicent. All rights reserved.
 
 #import "NSObject+json.h"
 
